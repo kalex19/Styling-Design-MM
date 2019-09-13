@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: IntroBold;
+  src: url('./fonts/IntroBold.otf');
+  font-family: MuseoSans;
+  src: url('./fonts/MuseoSans.otf');
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 60% 10% 10% 10% 10%;
+  padding-top: 2%;
+}
+
+.full {
+  height: 60px;
+  width: 250px;
+}
+
+.nav a {
+  font-size: 1.5em;
+  color: rgb(199, 174, 124);
+  font-family: MuseoSans;
+  text-decoration: none;
+}
+
+.small {
+  display: none;
+}
