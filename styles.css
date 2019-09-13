@@ -24,6 +24,8 @@ body {
 .full {
   height: 60px;
   width: 250px;
+  position: relative;
+  z-index: 1;
 }
 
 .nav a {
@@ -34,10 +36,13 @@ body {
 }
 
 .small {
-  display: none;
+  width: 50px;
+  margin-top: 1400px;
+  position: absolute;
+  z-index: 20;
 }
 
-.heading{
+.heading {
   background-image: url('./img/splash.jpg');
   height: 1100px;
   width: 100%;
@@ -49,7 +54,7 @@ body {
   border-top: 2px solid rgb(199, 174, 124)
 }
 
-.heading h1{
+.heading h1 {
   color: rgb(141, 140, 156);
   font-family: MuseoSans;
   font-size: 5em;
@@ -57,10 +62,39 @@ body {
   text-align: center;
 }
 
-.heading h2{
+.heading h2 {
   font-family: MuseoSans;
   font-size: 2em;
   margin: 0;
   text-transform: lowercase;
   text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 34% 33% 34%;
+}
+
+.feature {
+  padding: 15%;
+  border-right: 5px solid rgb(75, 70, 104);
+}
+
+.feature h3 {
+  color: rgb(75, 70, 104);
+  font-family: MuseoSans;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 20%;
+  margin-bottom: 30%;
+  text-align: center;
+}
+
+.feature p {
+  font-family: MuseoSans;
+  font-size: 1em;
+  width: 90%;
+  word-spacing: 10px;
+  line-height: 25px;
+  text-align: justify;
 }
