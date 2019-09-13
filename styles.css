@@ -98,3 +98,68 @@ body {
   line-height: 25px;
   text-align: justify;
 }
+
+@media only screen and (max-width: 667px) {
+  .nav {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-top: 3%;
+  }
+  
+  .full {
+    display: none;
+  }
+  
+  .nav a {
+    font-size: 2em;
+  }
+  
+  .small {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .heading {
+    background-image: url('./img/splash.jpg');
+    padding: 75% 15%;
+    background-repeat: round;
+  }
+  
+  .heading h1 {
+    color: rgb(141, 140, 156);
+    font-family: MuseoSans;
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .heading h2 {
+    font-family: MuseoSans;
+    font-size: 2em;
+    margin: 0;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-columns: 100%;
+  }
+  
+  .feature {
+    border-bottom: 5px solid rgb(75, 70, 104);
+    border-right: 0;
+  }
+  
+  .feature h3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .feature p {
+    word-spacing: 12px;
+  }
+}
