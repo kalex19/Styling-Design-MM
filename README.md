@@ -5,7 +5,7 @@
 * [Description](#Description)
 * [Project Successes](Project-Successes)
 * [Project Challenges](Project-Challenges)
-* [ Project Extensions/Issues](Project-Extensions/Issues)
+* [Project Issues](Project-Issues)
 * [Project Tech Emphasis](Project-Tech-Emphasis)
 * [Project Comps](Project-Comps)
 * [Developers](Developers)
@@ -16,22 +16,25 @@ This project is a mockup of a provided site. No changes could be made to the HTM
 
 ## Project Successes
 
+* Almost complete mock up
+* Learned new css properties such as @font-face and text-transform for lowercasing text
 
 ## Project Challenges
 
+* Moving html elements with css
+* Duplicating html elements with css
 
-## Project Extensions/Issues
 
+## Project Issues
+
+* Nav tabs are out of order
+* Feature dvis are lacking image
 
 ## Project Tech Emphasis
 
 * HTML
 * CSS
 * Mockup
-
-## Project Comp:
-
-![Home Page](./src/images/HomePage.png)
 
 ## Developer
 
