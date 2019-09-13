@@ -12,23 +12,23 @@
 
 ## Description
 
-This project is a mockup of a provided site. No changes could be made to the HTML, only the css. The developer had to make their best attempt at replication during a timed challenge.
+This project is a mockup of a provided site. No changes could be made to the HTML, only the CSS. The developer had to make their best attempt at replication during a timed challenge.
 
 ## Project Successes
 
 * Almost complete mock up
-* Learned new css properties such as @font-face and text-transform for lowercasing text
+* Learned new CSS properties such as @font-face and text-transform for lowercasing text
 
 ## Project Challenges
 
-* Moving html elements with css
-* Duplicating html elements with css
+* Moving HTML elements with CSS
+* Duplicating HTML elements with CSS
 
 
 ## Project Issues
 
 * Nav tabs are out of order
-* Feature dvis are lacking image
+* Feature divs are lacking image
 
 ## Project Tech Emphasis
 
