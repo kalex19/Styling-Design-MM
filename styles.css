@@ -17,41 +17,41 @@ body {
 .nav {
   display: grid;
   grid-template-columns: 60% 10% 10% 10% 10%;
-  padding-top: 2%;
   margin: 0 2%;
+  padding-top: 2%;
 }
 
 .full {
   height: 60px;
-  width: 250px;
   position: relative;
+  width: 250px;
   z-index: 1;
 }
 
 .nav a {
-  font-size: 1.5em;
   color: rgb(199, 174, 124);
   font-family: MuseoSans;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
 .small {
-  width: 50px;
   margin-top: 1400px;
   position: absolute;
+  width: 50px;
   z-index: 20;
 }
 
 .heading {
   background-image: url('./img/splash.jpg');
-  height: 1100px;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  border-top: 2px solid rgb(199, 174, 124);
   display: block;
-  padding: 20% 25%;
+  height: 1100px;
   justify-content: center;
-  border-top: 2px solid rgb(199, 174, 124)
+  padding: 20% 25%;
+  width: 100%;
 }
 
 .heading h1 {
@@ -66,8 +66,8 @@ body {
   font-family: MuseoSans;
   font-size: 2em;
   margin: 0;
-  text-transform: lowercase;
   text-align: center;
+  text-transform: lowercase;
 }
 
 .features {
@@ -76,27 +76,27 @@ body {
 }
 
 .feature {
-  padding: 15%;
   border-right: 5px solid rgb(75, 70, 104);
+  padding: 15%;
 }
 
 .feature h3 {
   color: rgb(75, 70, 104);
   font-family: MuseoSans;
-  font-weight: bold;
   font-size: 2em;
-  margin-top: 20%;
+  font-weight: bold;
   margin-bottom: 30%;
+  margin-top: 20%;
   text-align: center;
 }
 
 .feature p {
   font-family: MuseoSans;
   font-size: 1em;
-  width: 90%;
-  word-spacing: 10px;
   line-height: 25px;
   text-align: justify;
+  width: 90%;
+  word-spacing: 10px;
 }
 
 @media only screen and (max-width: 667px) {
@@ -114,39 +114,23 @@ body {
   }
   
   .small {
-    width: 50px;
     height: 50px;
     margin-top: 0;
     position: relative;
+    width: 50px;
     z-index: 1;
   }
   
   .heading {
     background-image: url('./img/splash.jpg');
-    padding: 75% 15%;
     background-repeat: round;
-  }
-  
-  .heading h1 {
-    color: rgb(141, 140, 156);
-    font-family: MuseoSans;
-    font-size: 5em;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .heading h2 {
-    font-family: MuseoSans;
-    font-size: 2em;
-    margin: 0;
-    text-transform: lowercase;
-    text-align: center;
+    padding: 75% 15%;
   }
   
   .features {
     display: grid;
-    grid-template-rows: 33% 33% 34%;
     grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 34%;
   }
   
   .feature {
@@ -155,8 +139,8 @@ body {
   }
   
   .feature h3 {
-    margin-top: 10%;
     margin-bottom: 10%;
+    margin-top: 10%;
   }
   
   .feature p {
